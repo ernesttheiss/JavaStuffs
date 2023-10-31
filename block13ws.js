@@ -10,15 +10,15 @@ function createMessage(fahrenheit,celsius){
     let message =`Th thempratrue ${fahrenheit}°F is equal to ${celsius.toFixed(2)}°C, which feels`;
 
     if(celsius <0) {
-        message +='very cold.';
+        message +=' oh so very cold.';
     } else if (celsius >=0 && celsius <10) {
-        message +='cold.;'
+        message +='pretty dang cold.;'
     } else if (celsius >=10 && celsius <20){
-        message =+'moderate.';
+        message =+'not all that to bad.';
     } else if (celsius >=20 && celsius <30){
-        message =+'warm.';
+        message =+'this is like the begining of summer.';
     } else {
-        message +='hot.';
+        message +='lets go swimming.';
     }
 
     return message;
